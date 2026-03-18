@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chapters</title>
+  <meta name="description" content="MCQ Quiz App – Select a chapter and test your knowledge with multiple choice questions.">
+  <title>MCQ App – Chapters</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav id="navbar" class="navbar"></nav>
 
-<h2>📚 Select a Chapter</h2>
+<h1>📚 Select a Chapter</h1>
 
-<div id="chapters"></div>
+<div id="chapters">
+  <div class="loading-spinner" id="chapters-loader">
+    <div class="spinner"></div>
+    <p>Loading chapters...</p>
+  </div>
+</div>
+
+<!-- Toast container -->
+<div id="toast-container"></div>
 
 <script src="script.js"></script>
 

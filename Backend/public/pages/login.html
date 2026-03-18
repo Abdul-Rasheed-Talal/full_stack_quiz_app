@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <meta name="description" content="Login to your MCQ Quiz App account to take chapter-based quizzes.">
+  <title>Login – MCQ App</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
 <nav id="navbar" class="navbar"></nav>
 
-<h2>🔑 Login</h2>
+<h1>🔑 Login</h1>
 
 <div class="card">
-  <input id="email" placeholder="Email"><br>
-  <input id="password" placeholder="Password" type="password"><br>
-
-  <button class="btn btn-primary" onclick="login()">Login</button>
-
+  <form id="login-form" onsubmit="handleLogin(event)">
+    <input id="email" type="email" placeholder="Email" required>
+    <input id="password" type="password" placeholder="Password" required minlength="6">
+    <button class="btn btn-primary" type="submit" id="login-btn">Login</button>
+  </form>
   <p class="link-text">Don't have an account? <a href="signup.html">Sign up</a></p>
 </div>
+
+<!-- Toast container -->
+<div id="toast-container"></div>
 
 <script src="../script.js"></script>
 

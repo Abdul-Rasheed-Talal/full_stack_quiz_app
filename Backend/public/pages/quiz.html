@@ -1,22 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz</title>
+  <meta name="description" content="Take a chapter quiz – answer multiple choice questions and test your knowledge.">
+  <title>Quiz – MCQ App</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
 <nav id="navbar" class="navbar"></nav>
 
-<h2>📝 Quiz</h2>
+<h1>📝 Quiz</h1>
 
-<div id="quiz" class="quiz-container"></div>
-
-<div class="submit-bar">
-  <button class="btn btn-primary" onclick="submitTest()">Submit Test</button>
+<!-- Progress bar -->
+<div class="quiz-progress" id="quiz-progress">
+  <div class="progress-text">Answered: <span id="progress-count">0</span> / <span id="progress-total">0</span></div>
+  <div class="progress-bar-track">
+    <div class="progress-bar-fill" id="progress-bar"></div>
+  </div>
 </div>
+
+<div id="quiz" class="quiz-container">
+  <div class="loading-spinner" id="quiz-loader">
+    <div class="spinner"></div>
+    <p>Loading questions...</p>
+  </div>
+</div>
+
+<div class="submit-bar" id="submit-bar" style="display:none;">
+  <button class="btn btn-primary" onclick="submitTest()" id="submit-btn">Submit Test</button>
+</div>
+
+<!-- Toast container -->
+<div id="toast-container"></div>
 
 <script src="../script.js"></script>
 
