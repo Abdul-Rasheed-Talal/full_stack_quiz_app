@@ -1,0 +1,316 @@
+[
+  {
+    "chapterNumber": 1,
+    "title": "Chapter 1: HTML Basic",
+    "description": "Overview of HTML and it's significance in web development",
+    "mcqs": [
+      {
+        "question": "What does HTML stand for?",
+        "options": [
+          "Hyper Trainer Marking Language",
+          "Hyper Text Markup Language",
+          "Hyper Text Markdown Language",
+          "Home Tool Markup Language"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which tag is used to define a paragraph in HTML?",
+        "options": [
+          "<p>",
+          "<para>",
+          "<pr>",
+          "<text>"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What tag is used for the largest heading?",
+        "options": [
+          "<h6>",
+          "<h4>",
+          "<heading>",
+          "<h1>"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "Which tag is used to insert an image?",
+        "options": [
+          "<img>",
+          "<image>",
+          "<pic>",
+          "<src>"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "The correct HTML element for inserting a line break is:",
+        "options": [
+          "<break>",
+          "<br>",
+          "<lb>",
+          "<newline>"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which attribute is used with <img> to define alternate text?",
+        "options": [
+          "alt",
+          "title",
+          "name",
+          "desc"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which tag is used to create an unordered list?",
+        "options": [
+          "<ul>",
+          "<ol>",
+          "<li>",
+          "<list>"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which form element is used to accept multi-line input?",
+        "options": [
+          "<textarea>",
+          "<textarea>",
+          "<input type=\"text\">",
+          "<input multiline>"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "To create a link in HTML, we use:",
+        "options": [
+          "<href>",
+          "<a>",
+          "<link>",
+          "<url>"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which HTML tag is used to group block-level content?",
+        "options": [
+          "<section>",
+          "<div>",
+          "<span>",
+          "<group>"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does `<th>` stand for in tables?",
+        "options": [
+          "Table Head",
+          "Table Header",
+          "Table Heading",
+          "Top Heading"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which attribute merges two or more table columns?",
+        "options": [
+          "merge",
+          "colspan",
+          "span",
+          "columns"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which tag defines emphasized text?",
+        "options": [
+          "<bold>",
+          "<i>",
+          "<em>",
+          "<strong>"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which tag is used to create a drop-down menu?",
+        "options": [
+          "<select>",
+          "<option>",
+          "<dropdown>",
+          "<list>"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What attribute defines where to send form data?",
+        "options": [
+          "target",
+          "action",
+          "method",
+          "submit"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which tag is used to create a table row?",
+        "options": [
+          "<row>",
+          "<td>",
+          "<tr>",
+          "<line>"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which HTML element is used for inline grouping?",
+        "options": [
+          "<group>",
+          "<div>",
+          "<span>",
+          "<p>"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the default method for form submission?",
+        "options": [
+          "POST",
+          "SUBMIT",
+          "SEND",
+          "GET"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "Which attribute is used to require a field in a form?",
+        "options": [
+          "must",
+          "validate",
+          "required",
+          "check"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which tag is used to display bold text semantically?",
+        "options": [
+          "<bold>",
+          "<b>",
+          "<em>",
+          "<strong>"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "Which tag is used to define table data?",
+        "options": [
+          "<td>",
+          "<th>",
+          "<tr>",
+          "<table>"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "How can you open a link in a new tab?",
+        "options": [
+          "<a href=\"new\">",
+          "<a target=\"_blank\">",
+          "<a new=\"tab\">",
+          "<a tab=\"true\">"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the purpose of <fieldset> in forms?",
+        "options": [
+          "Set form title",
+          "Style the form",
+          "Group related elements",
+          "Validate form"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which input type is used for passwords?",
+        "options": [
+          "text",
+          "passcode",
+          "password",
+          "secure"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which tag is used for a horizontal line?",
+        "options": [
+          "<line>",
+          "<hr>",
+          "<break>",
+          "<border>"
+        ],
+        "correctOption": 1
+      }
+    ]
+  },
+  {
+    "chapterNumber": 2,
+    "title": "Chapter 2: CSS Fundamental",
+    "description": "Overview of Cascading Style Sheet and basic properties and selectors",
+    "mcqs": [
+      {
+        "question": "Placeholder Question 1 for CSS",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Placeholder Question 2 for CSS",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Placeholder Question 3 for CSS",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Placeholder Question 4 for CSS",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Placeholder Question 5 for CSS",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctOption": 0
+      }
+    ]
+  }
+]
